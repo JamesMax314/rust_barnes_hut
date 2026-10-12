@@ -1,0 +1,10 @@
+[package]
+name = "rust_bh"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+macroquad = "0.4.16"
+
+[profile.release]
+debug = true
