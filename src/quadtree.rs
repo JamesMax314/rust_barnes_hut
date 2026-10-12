@@ -5,7 +5,7 @@ mod debug;
 
 const MAX_DEPTH: u32 = 30;
 pub const G: f64 = 1.0;
-const SOFTENING_SQ: f64 = 1e-6;
+const SOFTENING_SQ: f64 = 1.0;
 
 #[derive(Clone, Copy)]
 struct BBox {

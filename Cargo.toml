@@ -5,6 +5,7 @@ edition = "2021"
 
 [dependencies]
 macroquad = "0.4.16"
+rustfft = "6.4.1"
 
 [profile.release]
 debug = true
